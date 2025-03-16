@@ -8,7 +8,7 @@ class GameImage {
 class Game {
   String title;
   GameImage coverImage;
-  List<GameImage> images;
+  List<GameImage> images = [];
   String description;
   String studio;
 
